@@ -1,0 +1,51 @@
+# Building with the Claude API
+
+Learning repository for the [Anthropic Academy course](https://anthropic.skilljar.com/claude-with-the-anthropic-api/287735) on building applications with Claude.
+
+## About
+
+This repository contains my code and notes from the "Building with the Claude API" course. The course covers the full spectrum of working with Anthropic models, from basic API usage to advanced agent architectures.
+
+## Course Topics
+
+- **Getting Started with Claude** - API authentication, basic requests, conversation management, system prompts, structured output
+- **Prompt Engineering & Evaluation** - Prompting strategies, evaluation frameworks, systematic testing
+- **Tool Use with Claude** - Function calling, multi-turn tool interactions, batch tool calling
+- **Retrieval Augmented Generation (RAG)** - Text chunking, embeddings, hybrid search, reranking
+- **Model Context Protocol (MCP)** - Custom tools and resources, MCP servers and clients
+- **Claude Code & Computer Use** - Development workflows, UI automation
+- **Agents and Workflows** - Parallel execution, operation chaining, conditional routing
+
+## Prerequisites
+
+- Python 3.x
+- Anthropic API key
+- Basic knowledge of handling JSON data
+
+## Setup
+
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   pip install anthropic python-dotenv
+   ```
+3. Create a `.env` file with your API key:
+   ```
+   ANTHROPIC_API_KEY=your_api_key_here
+   ```
+
+## Notebooks
+
+| File | Description |
+|------|-------------|
+| [001_requests.ipynb](001_requests.ipynb) | Basic API requests and multi-turn conversations |
+
+## Resources
+
+- [Anthropic API Documentation](https://docs.anthropic.com/)
+- [Anthropic Academy](https://anthropic.skilljar.com/)
+- [Claude API Reference](https://docs.anthropic.com/en/api)
+
+## License
+
+[MIT](LICENSE)
