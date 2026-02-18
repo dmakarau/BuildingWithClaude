@@ -34,11 +34,26 @@ This repository contains my code and notes from the "Building with the Claude AP
    ANTHROPIC_API_KEY=your_api_key_here
    ```
 
+## Helper Module
+
+The `claude_helpers.py` module provides reusable functions and setup for working with the Claude API:
+
+- **Client setup**: Automatically loads environment variables and creates the Anthropic client
+- **Helper functions**: `add_user_message()`, `add_assistant_message()`, `chat()`
+- **System prompts**: Optional system prompt parameter in the `chat()` function
+
+Import it in any notebook to avoid duplicating setup code:
+```python
+from claude_helpers import client, model, add_user_message, add_assistant_message, chat
+```
+
 ## Notebooks
 
 | File | Description |
 |------|-------------|
 | [001_requests.ipynb](001_requests.ipynb) | Basic API requests and multi-turn conversations |
+| [001_requests_exercise.ipynb](001_requests_exercise.ipynb) | Interactive chat exercise with conversation history |
+| [002_system_prompt.ipynb](002_system_prompt.ipynb) | Using system prompts to guide Claude's behavior |
 
 ## Resources
 
