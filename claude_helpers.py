@@ -24,7 +24,7 @@ def add_assistant_message(messages, text):
     messages.append(assistant_message)
 
 
-def chat(messages, system_prompt=None):
+def chat(messages, system_prompt=None, temperature=None):
     """Send messages to Claude and get a response"""
     kwargs = {
         "model": model,
@@ -34,6 +34,8 @@ def chat(messages, system_prompt=None):
     
     if system_prompt:
         kwargs["system"] = system_prompt
+    if temperature:
+        kwargs["temperature"] = temperature
     
     message = client.messages.create(**kwargs)
     return message.content[0].text
