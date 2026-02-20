@@ -55,6 +55,7 @@ from claude_helpers import client, model, add_user_message, add_assistant_messag
 | [001_requests_exercise.ipynb](001_requests_exercise.ipynb) | Interactive chat exercise with conversation history |
 | [002_system_prompt.ipynb](002_system_prompt.ipynb) | Using system prompts to guide Claude's behavior |
 | [003_temperature.ipynb](003_temperature.ipynb) | Exploring temperature parameter for response randomness |
+| [004_streaming.ipynb](004_streaming.ipynb) | Streaming responses from Claude API |
 
 ## Resources
 
