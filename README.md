@@ -40,7 +40,7 @@ The `claude_helpers.py` module provides reusable functions and setup for working
 
 - **Client setup**: Automatically loads environment variables and creates the Anthropic client
 - **Helper functions**: `add_user_message()`, `add_assistant_message()`, `chat()`
-- **Optional parameters**: System prompts and temperature control in the `chat()` function
+- **Optional parameters**: System prompts, temperature control, and stop sequences in the `chat()` function
 
 Import it in any notebook to avoid duplicating setup code:
 ```python
@@ -56,6 +56,7 @@ from claude_helpers import client, model, add_user_message, add_assistant_messag
 | [002_system_prompt.ipynb](002_system_prompt.ipynb) | Using system prompts to guide Claude's behavior |
 | [003_temperature.ipynb](003_temperature.ipynb) | Exploring temperature parameter for response randomness |
 | [004_streaming.ipynb](004_streaming.ipynb) | Streaming responses from Claude API |
+| [005_controlling_output.ipynb](005_controlling_output.ipynb) | Controlling output with prefilling and stop sequences |
 
 ## Resources
 

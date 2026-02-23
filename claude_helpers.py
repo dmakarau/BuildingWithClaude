@@ -24,12 +24,13 @@ def add_assistant_message(messages, text):
     messages.append(assistant_message)
 
 
-def chat(messages, system_prompt=None, temperature=None):
+def chat(messages, system_prompt=None, temperature=1.0, stop_sequences = []):
     """Send messages to Claude and get a response"""
     kwargs = {
         "model": model,
         "max_tokens": 1000,
         "messages": messages,
+        "stop_sequences": stop_sequences
     }
     
     if system_prompt:
