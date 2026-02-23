@@ -57,6 +57,7 @@ from claude_helpers import client, model, add_user_message, add_assistant_messag
 | [003_temperature.ipynb](003_temperature.ipynb) | Exploring temperature parameter for response randomness |
 | [004_streaming.ipynb](004_streaming.ipynb) | Streaming responses from Claude API |
 | [005_controlling_output.ipynb](005_controlling_output.ipynb) | Controlling output with prefilling and stop sequences |
+| [006_controlling_output_exercise.ipynb](006_controlling_output_exercise.ipynb) | Exercise: Extracting code blocks using prefilling and stop sequences |
 
 ## Resources
 
