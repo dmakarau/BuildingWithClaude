@@ -41,6 +41,7 @@ The `claude_helpers.py` module provides reusable functions and setup for working
 - **Client setup**: Automatically loads environment variables and creates the Anthropic client
 - **Helper functions**: `add_user_message()`, `add_assistant_message()`, `chat()`
 - **Optional parameters**: System prompts, temperature control, and stop sequences in the `chat()` function
+- **Evaluation functions**: `run_prompt()`, `grade_by_model()`, `run_test_case()`, `run_eval()` for systematic prompt testing
 
 Import it in any notebook to avoid duplicating setup code:
 ```python
@@ -58,6 +59,7 @@ from claude_helpers import client, model, add_user_message, add_assistant_messag
 | [004_streaming.ipynb](004_streaming.ipynb) | Streaming responses from Claude API |
 | [005_controlling_output.ipynb](005_controlling_output.ipynb) | Controlling output with prefilling and stop sequences |
 | [006_controlling_output_exercise.ipynb](006_controlling_output_exercise.ipynb) | Exercise: Extracting code blocks using prefilling and stop sequences |
+| [007_prompt_evals.ipynb](007_prompt_evals.ipynb) | Generating evaluation datasets and running prompt evaluations with model-based grading |
 
 ## Resources
 

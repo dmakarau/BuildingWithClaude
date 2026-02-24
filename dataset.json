@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that takes an AWS ARN string and extracts the service name from it. For example, given 'arn:aws:s3:::my-bucket/file.txt' it should return 's3'."
+  },
+  {
+    "task": "Create a JSON object for an AWS S3 bucket policy that allows public read access to all objects in a bucket named 'my-public-assets'."
+  },
+  {
+    "task": "Write a regular expression that validates AWS access key IDs, which start with 'AKIA' or 'ASIA' followed by 16 alphanumeric characters."
+  }
+]
